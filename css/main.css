@@ -141,7 +141,7 @@ nav{
 /* ANIMACIONES / TRANSICIONES */
 
 
-#fotolateral{
+/* #fotolateral{
     transition-property: all;
     transition-duration: .5s;
     opacity: 1;
@@ -214,7 +214,7 @@ transition-duration: .5s;
     100%{
         transform: translateX(0px);
         opacity: 1; */
-    }
+    } */
 
 
 }
