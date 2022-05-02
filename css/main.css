@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(155, 155, 155);
+}
+    
+
+/* INDEX STUFF */
+
+/* NAV */
+
+nav{
+    background-color: rgb(155, 155, 155);
+}
+.homebutton{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-display: red;
+    background-color: rgb(155, 155, 155);
+    border: solid 1px black;
+    margin: 0 450px;   
+    border-radius: 70px;
+    
+           }
+
+.titulo{
+    color: rgb(0, 0, 0);
+      
+}
+
+
+.navegador{
+    background-color: rgba(100, 100, 100, 0.212);
+    font-family: Arial, Helvetica, sans-serif;
+               
+}
+
+.navegador ul{
+    text-align: center;
+    list-style: none;
+    
+}
+.navegador ul li{
+    
+        display: inline; 
+        margin: 0% 40px;
+        
+      
+    
+    
+}
+/* FIN NAV */
+
+/* HEADER */
+
+
+
+.frase-inicio{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.678);
+    font-family: Helvetica, sans-serif ;    
+}
+
+#lanzamiento-titulo{
+    text-align: center;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+    color: rgb(12, 10, 39);
+    
+}
+
+
+
+.releases{
+    display: flex;
+    justify-content: space-between ;
+    background-color: rgba(53, 54, 100, 0.288);
+}
+
+.releases-2 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* FOOTER COSAS */
+#footer-text{
+    text-align: center;
+    color: blueviolet;
+}
+
+.redes{
+    
+    text-align: center;
+    
+    justify-content: space-evenly;
+    
+}
+
+/* BIOGRAFIA STUFF */
+
+.titulobio{
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.historia{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: oblique;
+    text-indent: 1cm;
+}
+
+
+/* Eventos STUFF */
+
+.eventos ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+
+    }
+
+
+
+/* CONTACTO STUFF */
+
+
+/* DISCOGRAFIA STUFF */
+
+.releases-2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+
+
+
+/* ANIMACIONES / TRANSICIONES */
+
+
+#fotolateral{
+    transition-property: all;
+    transition-duration: .5s;
+    opacity: 1;
+    animation-name: fade-in;
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+
+}
+#fotolateral:hover {
+    transform: scale(1.5);
+}
+
+#worlds-unseen{
+    transition-property: all;
+transition-duration: .5s;
+
+}
+#worlds-unseen:hover {
+    transform: scale(1.5);
+}
+
+#endless-road{
+    transition-property: all;
+transition-duration: .5s;
+}
+#endless-road:hover {
+    transform: scale(1.5);
+}
+
+
+#set{
+    transition-property: all;
+transition-duration: .5s;
+}
+#set:hover {
+    transform: scale(1.5);
+}
+
+
+#tpas2{
+    transition-property: all;
+    transition-duration: .5s;
+}
+#tpas2:hover{
+    transform: scale(1.5);
+}
+
+#tpas1{
+    transition-property: all;
+    transition-duration: .5s;
+}
+
+#tpas1:hover{
+    transform: scale(1.5);
+}
+
+/* @keyframes fade-in {
+    0%{
+        transform: translateX(500px);
+        opacity: 0;
+
+    }
+
+    50%{
+        transform: translateX(80px);
+        opacity: .5;
+    }
+
+    100%{
+        transform: translateX(0px);
+        opacity: 1; */
+    }
+
+
+}
+
